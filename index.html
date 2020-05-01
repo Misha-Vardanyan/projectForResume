@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <script src="https://kit.fontawesome.com/1db1286f45.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mercedes-Official</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo"><img src="img/daimler_1.png " alt="logo"></div>
+    <h1>Mercedes-Benz C class</h1>
+    <div class="navbar">
+      <ul class="navbarItem">
+        <li><a href="#">catalog</a></li>
+        <li><a href="#">service</a></li>
+        <li><a href="#">about us</a></li>
+     </ul>
+    </div>
+  <div class="headerDp">  <p class="headerP">The Best or nothing</p></div>
+
+
+  <div class="carBody">
+  <a href="index.html">sedan</a>
+  <a href="SUV.html">SUV</a>
+  <a href="hatch.html">hatchback</a>
+</div>
+
+</div>
+
+
+
+
+
+<h2 id="autoClass">C class</h2>
+
+<div id="imgHolder" >
+<div class="b" data-img-paths='img/CfromSide.webp'> side view</div>
+<img src="img/black.JPG" alt="auto" >
+
+<div class="b" data-img-paths='img/CfromBack.jpeg'>back view</div>
+</div>
+<h3 id="autoColorHead">choose color</h3>
+<div id="colorSelector" class="colorSelector">
+
+<div class="colorItem colorBlue"  data-img-path='img/blue.JPG'></div>
+<div class="colorItem colorBlack" data-img-path='img/black.JPG'></div>
+<div class="colorItem colorRed" data-img-path='img/red.JPG'></div>
+<div class="colorItem colorWhite" data-img-path='img/white.JPG'></div>
+<div class="colorItem colorGrey" data-img-path='img/grey.JPG'></div>
+
+</div>
+<div class="model_summary">
+<div class="model_name">Mersedes-Benc C Class</div>
+<div class="model_specs" id="modelSpecs"></div>
+<div class="model_price" id="modelPrice"></div>
+<div class="button" id="buy">buy</div>
+</div>
+
+<div class="autoFormBlock">
+<form id="autoForm">
+<h3 id="chooseAutoConfig">Choose configuration for yourself</h3>
+<div class="row">
+<div class="col-1-of-3">
+<h3>Engine</h3>
+<div class="form-block">
+<input type="radio" name="engine" id="engine1600" value="22000" checked>
+<label for="engine1600">1.6 L. (136 h. p.)</label>
+</div>
+
+<div class="form-block">
+<input type="radio" name="engine" id="engine1800" value="25000">
+<label for="engine1800">1.8 L. (167 h. p.)</label>
+</div>
+</div>
+<div class="col-1-of-3">
+
+<h3>Transmission</h3>
+<div class="form-block">
+
+<input type="radio" name="transmition" id="transmition6MT" value="0"checked>
+<label for="transmition6MT">Mechanic. 6 steps (6 MT)</label>
+</div>
+<div class="form-block">
+
+<input type="radio" name="transmition" id="transmition6AT" value="3600">
+<label for="transmition6AT">Automatic. 6 steps (6 AT)</label>
+</div>
+</div>
+<div class="col-1-of-3">
+  <h3>Package (add. options)</h3>
+<div class="form-block">
+<input type="radio" name="package" id="packageActive" value="0" checked>
+<label for="packageActive">Active plus(air conditioning)</label>
+</div>
+<div class="form-block">
+<input type="radio" name="package" id="packageActivePlus" value="3500">
+<label for="packageActivePlus">Comfort(climate control)</label>
+</div>
+<div class="form-block">
+<input type="radio" name="package" id="packageComfort" value="7000">
+<label for="packageComfort">AMG(full)</label>
+</div>
+</div>
+
+
+
+</form>
+
+</div>
+</div>
+<div class="footer">
+<div class="footerUnitCredit">
+  <h5>Credit department</h5>
+  <a href="#">Credit</a>
+  <a href="#">Leasing</a>
+  <a href="#">Installment</a>
+</div>
+<div class="footerUnitSocNetwork ">
+<h5>We in social networks</h5>
+<a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i>find us in Facebook</a>
+<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>find us in instagram</a>
+<a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i>find us in Twitter</a>
+</div>
+<div class="footerUnitoffers">
+  <h5>Other offers</h5>
+  <a href="#">Sign up for a test drive</a>
+  <a href="#">Sign up for a maintenance</a>
+  <a href="#">Used cars</a>
+</div>
+</div>
+</div>
+<script src="jquery-3.5.0.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
